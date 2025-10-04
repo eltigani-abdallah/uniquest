@@ -121,12 +121,958 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: standUpRiku
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 2815
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c280183ea689f5840a2d0402ebdb5624
+      internalID: 1903981912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpRiku0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2750
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbea556aafc43ed4daa118728528632c
+      internalID: -14623761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpRiku1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 2744
+        width: 27
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3b2d915e6958d48ad356ee9809da3b
+      internalID: 1117780539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpRiku2
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 2747
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06ed2370d0cdfc48999596c8b17437d
+      internalID: 871567538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpRiku3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 2745
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a207890e2d74e0f4a8214760e2a10340
+      internalID: 1752128092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpRiku4
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 2747
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b22a7db91ce9e4890c10e5d1163ad1
+      internalID: -1132473739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpRiku5
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 2745
+        width: 26
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7dc372716a403d4aae83e4488b8519c
+      internalID: -1935533196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpRiku6
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 2745
+        width: 26
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b58de4e5e76d7748b8b06117e6b7605
+      internalID: 459754431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpRiku7
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 2745
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c6222fbeb18794587a436922fe3335
+      internalID: 2111020031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: standUpLeftRiku
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 2493
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffff7ed8ac7a6dc4c96568d19ed12b4a
+      internalID: -285331124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpLeftRiku0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 2151
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e244e587a5c07b342ba45f65f14c7d8d
+      internalID: 1041217097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpLeftRiku1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2151
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db8e1d28a8dfcb45afcf118c10cf9bd
+      internalID: -788380004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpLeftRiku2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 2153
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eee2c4cca1c4d34eb44fe556d6b61b8
+      internalID: 1985305142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpLeftRiku3
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 2150
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fabb1d488a42b49ad334ca0c8d2903
+      internalID: -1197181315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpLeftRiku4
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 2151
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ef3898fa405d245b0a6e62968f7d22
+      internalID: -613079391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpLeftRiku5
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2147
+        width: 41
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5656951b79c37c4eaa3d709fc07eab2
+      internalID: 702082288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpLeftRiku6
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 2155
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988325cb2c806254c8f85303be7f4330
+      internalID: -194364944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: standLeftRiku
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1982
+        width: 24
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e12a74c08c855e40a87e2a92e63303b
+      internalID: -1346804836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runLeftRiku0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1916
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfedfe5dc8d5cf43aafc85da497d1e9
+      internalID: 449431842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runLeftRiku1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1916
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9faca6c93abb18045af82a150e6ae2c2
+      internalID: 650815503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runLeftRiku2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1917
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90c64411a7ec1b4a8c765e4acaf63cc
+      internalID: 1224511437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runLeftRiku3
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1917
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85534c1a30a00424195ce9229a63953d
+      internalID: 1690870271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runLeftRiku4
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1917
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3e9b1c9ff249d4f870813520b770e9
+      internalID: 1333909919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runLeftRiku5
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1917
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27016aca925c6845a4294b0391931e5
+      internalID: -983228295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runLeftRiku6
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1919
+        width: 58
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19469adc8d4ab7a41b9968d937478ad2
+      internalID: 1718458307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runLeftRiku7
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1919
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2262d4817e36be94aa7c1a19ca8e1736
+      internalID: 878009691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: standDownLeftRiku
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1628
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af38ade7683a53b4d8043ee139b5bc19
+      internalID: -1077585146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownLeftRiku0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1237
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91998d8c6e47e1f49a270d12a235c56a
+      internalID: -757882052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownLeftRiku1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1236
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9039f62c7be558a44b22a706c5fb6116
+      internalID: -1431290806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownLeftRiku2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1231
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6053c6fa520cda948b7b63f79fa7ba10
+      internalID: -1184916462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownLeftRiku3
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1229
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d2a96538cf641418cfade53cb3ec1a
+      internalID: -446627478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownLeftRiku4
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1232
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c64af0cc3be094b93672e360dd291e
+      internalID: -1092882968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownLeftRiku5
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1232
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ee5f46a4c19ae43852b32264dd78ce
+      internalID: 509444321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownLeftRiku6
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1234
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026a31b79168fb5409432d0696927140
+      internalID: 839452952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownLeftRiku7
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1231
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfb3a7af62b2f1479e47fe543329308
+      internalID: 711685689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: standDownRiku
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1064
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a0140ef4fd5b543857ade7823161cc
+      internalID: -1253061935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownRiku0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 995
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159155ccf8729cf4497704648bd2e777
+      internalID: 348045278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownRiku1
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 997
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5428f10e719e204c92e837ec690f5b6
+      internalID: 1791016856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownRiku2
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 992
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4cb3e9914d17d4582b35c10b569bd3
+      internalID: -231016540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownRiku3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 988
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b7459c57a548f44a2f5996badc0f54
+      internalID: -1633959302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownRiku4
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 993
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe6dcdf49440064e99ad975599db1dd
+      internalID: 241164220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownRiku5
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 997
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fffe9d9f256a7454aaaa423f2426e034
+      internalID: 960637977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownRiku6
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 987
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e51d133a197af4f878dcd699f68fcc
+      internalID: 735133441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 837a6a5070edca2488b2fe322afb7eff
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +1081,221 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      rikuKHCOM_0: 2045847760
+      rikuKHCOM_1: 745808828
+      rikuKHCOM_10: -1966687319
+      rikuKHCOM_100: -566678975
+      rikuKHCOM_101: -1793977896
+      rikuKHCOM_103: -1507071373
+      rikuKHCOM_104: 1253351992
+      rikuKHCOM_105: 777670884
+      rikuKHCOM_106: -879378140
+      rikuKHCOM_107: -1363752922
+      rikuKHCOM_108: -1427459443
+      rikuKHCOM_109: 497335117
+      rikuKHCOM_11: -222960650
+      rikuKHCOM_110: -1372125595
+      rikuKHCOM_111: 1897220102
+      rikuKHCOM_112: -1506569156
+      rikuKHCOM_113: -695236048
+      rikuKHCOM_114: -1917394593
+      rikuKHCOM_115: 1848833695
+      rikuKHCOM_116: 404404714
+      rikuKHCOM_117: 529178001
+      rikuKHCOM_118: 2030701359
+      rikuKHCOM_119: -1887331464
+      rikuKHCOM_12: 906830304
+      rikuKHCOM_120: 685492922
+      rikuKHCOM_121: -1786642088
+      rikuKHCOM_122: 791528803
+      rikuKHCOM_123: 303861547
+      rikuKHCOM_124: -920438778
+      rikuKHCOM_125: 1883494911
+      rikuKHCOM_126: 1991733021
+      rikuKHCOM_13: -1402786067
+      rikuKHCOM_135: 1797666006
+      rikuKHCOM_136: -1484725674
+      rikuKHCOM_137: -782494324
+      rikuKHCOM_138: 418860877
+      rikuKHCOM_139: 1232783805
+      rikuKHCOM_14: 367945862
+      rikuKHCOM_148: 1359971612
+      rikuKHCOM_149: -1822995692
+      rikuKHCOM_15: -925936102
+      rikuKHCOM_150: -203769941
+      rikuKHCOM_151: 2043819642
+      rikuKHCOM_152: 1001874980
+      rikuKHCOM_153: 426054263
+      rikuKHCOM_154: -22578132
+      rikuKHCOM_155: -1855821538
+      rikuKHCOM_156: 1156524790
+      rikuKHCOM_157: 1697958216
+      rikuKHCOM_158: -1274698142
+      rikuKHCOM_159: -238448984
+      rikuKHCOM_16: -365191640
+      rikuKHCOM_160: 1698615124
+      rikuKHCOM_161: -1855172892
+      rikuKHCOM_162: 709730960
+      rikuKHCOM_163: 2078113211
+      rikuKHCOM_164: -1249127287
+      rikuKHCOM_165: -1209925473
+      rikuKHCOM_166: 1047776128
+      rikuKHCOM_167: 1096206702
+      rikuKHCOM_168: 897931353
+      rikuKHCOM_169: -1060892636
+      rikuKHCOM_17: -1839363022
+      rikuKHCOM_170: -1010565881
+      rikuKHCOM_171: 423635432
+      rikuKHCOM_172: -1282729113
+      rikuKHCOM_173: 948957560
+      rikuKHCOM_174: -337962122
+      rikuKHCOM_175: -1822517716
+      rikuKHCOM_176: -1226919129
+      rikuKHCOM_177: -685186173
+      rikuKHCOM_178: -1499278904
+      rikuKHCOM_179: -1266597738
+      rikuKHCOM_18: 965753613
+      rikuKHCOM_180: -1369169885
+      rikuKHCOM_181: 1843766989
+      rikuKHCOM_182: 1017090456
+      rikuKHCOM_183: 1522547429
+      rikuKHCOM_184: 365534860
+      rikuKHCOM_185: -189655270
+      rikuKHCOM_186: 227886016
+      rikuKHCOM_187: -891310705
+      rikuKHCOM_188: 2123847065
+      rikuKHCOM_189: 620466092
+      rikuKHCOM_19: -813772309
+      rikuKHCOM_190: -613588901
+      rikuKHCOM_191: -982414879
+      rikuKHCOM_192: -461960401
+      rikuKHCOM_193: -1243928254
+      rikuKHCOM_194: -281981723
+      rikuKHCOM_195: -2121825465
+      rikuKHCOM_196: -1678893021
+      rikuKHCOM_197: -1915617432
+      rikuKHCOM_198: 1129976790
+      rikuKHCOM_199: -2006975994
+      rikuKHCOM_2: 1879974646
+      rikuKHCOM_20: -622270987
+      rikuKHCOM_200: -82092040
+      rikuKHCOM_201: -1399398707
+      rikuKHCOM_202: -1384948930
+      rikuKHCOM_203: 789101977
+      rikuKHCOM_204: 426338130
+      rikuKHCOM_205: -1208971460
+      rikuKHCOM_206: 1773274136
+      rikuKHCOM_207: -1541061345
+      rikuKHCOM_208: 532021436
+      rikuKHCOM_209: 1935714776
+      rikuKHCOM_21: -2025638451
+      rikuKHCOM_210: -659798234
+      rikuKHCOM_211: -2098259515
+      rikuKHCOM_212: 1789630632
+      rikuKHCOM_213: 1205148222
+      rikuKHCOM_22: 812209346
+      rikuKHCOM_23: -2081340212
+      rikuKHCOM_3: 1960644223
+      rikuKHCOM_33: 1079752
+      rikuKHCOM_34: 243072752
+      rikuKHCOM_35: 1245116331
+      rikuKHCOM_36: 945620310
+      rikuKHCOM_37: -31855739
+      rikuKHCOM_38: 1913932640
+      rikuKHCOM_39: 1310314104
+      rikuKHCOM_4: 1986014342
+      rikuKHCOM_40: -24610839
+      rikuKHCOM_41: 875652644
+      rikuKHCOM_42: 970377486
+      rikuKHCOM_44: 251062805
+      rikuKHCOM_45: 1433366186
+      rikuKHCOM_46: -1172413878
+      rikuKHCOM_47: 834116634
+      rikuKHCOM_48: 77928793
+      rikuKHCOM_49: -1448301365
+      rikuKHCOM_5: -1163864285
+      rikuKHCOM_50: -982894245
+      rikuKHCOM_51: -1107483206
+      rikuKHCOM_52: -1358028409
+      rikuKHCOM_53: 563402317
+      rikuKHCOM_54: 1594018115
+      rikuKHCOM_55: 920881728
+      rikuKHCOM_56: 821902644
+      rikuKHCOM_57: 1752229632
+      rikuKHCOM_58: 996176575
+      rikuKHCOM_59: 195948517
+      rikuKHCOM_6: 1993144511
+      rikuKHCOM_60: -221990959
+      rikuKHCOM_61: 396939743
+      rikuKHCOM_62: 1329905459
+      rikuKHCOM_63: -945141950
+      rikuKHCOM_7: -262743810
+      rikuKHCOM_71: 1539989158
+      rikuKHCOM_72: 1471148710
+      rikuKHCOM_73: 714601905
+      rikuKHCOM_74: -997215758
+      rikuKHCOM_75: 378112106
+      rikuKHCOM_8: 1661586401
+      rikuKHCOM_85: 1232613510
+      rikuKHCOM_86: -695899295
+      rikuKHCOM_87: 1335740470
+      rikuKHCOM_88: 813176437
+      rikuKHCOM_89: 771993870
+      rikuKHCOM_9: 1240615169
+      rikuKHCOM_90: 699857909
+      rikuKHCOM_91: -918383064
+      rikuKHCOM_92: 623016335
+      rikuKHCOM_93: 1697502601
+      rikuKHCOM_94: 2109511777
+      rikuKHCOM_95: 1731622328
+      rikuKHCOM_96: -259288582
+      rikuKHCOM_97: -1449164512
+      rikuKHCOM_98: 1386402799
+      rikuKHCOM_99: -2020470901
+      runDownLeftRiku0: -757882052
+      runDownLeftRiku1: -1431290806
+      runDownLeftRiku2: -1184916462
+      runDownLeftRiku3: -446627478
+      runDownLeftRiku4: -1092882968
+      runDownLeftRiku5: 509444321
+      runDownLeftRiku6: 839452952
+      runDownLeftRiku7: 711685689
+      runDownRiku0: 348045278
+      runDownRiku1: 1791016856
+      runDownRiku2: -231016540
+      runDownRiku3: -1633959302
+      runDownRiku4: 241164220
+      runDownRiku5: 960637977
+      runDownRiku6: 735133441
+      runLeftRiku0: 449431842
+      runLeftRiku1: 650815503
+      runLeftRiku2: 1224511437
+      runLeftRiku3: 1690870271
+      runLeftRiku4: 1333909919
+      runLeftRiku5: -983228295
+      runLeftRiku6: 1718458307
+      runLeftRiku7: 878009691
+      runUpLeftRiku0: 1041217097
+      runUpLeftRiku1: -788380004
+      runUpLeftRiku2: 1985305142
+      runUpLeftRiku3: -1197181315
+      runUpLeftRiku4: -613079391
+      runUpLeftRiku5: 702082288
+      runUpLeftRiku6: -194364944
+      runUpRiku0: -14623761
+      runUpRiku1: 1117780539
+      runUpRiku2: 871567538
+      runUpRiku3: 1752128092
+      runUpRiku4: -1132473739
+      runUpRiku5: -1935533196
+      runUpRiku6: 459754431
+      runUpRiku7: 2111020031
+      standDownLeftRiku: -1077585146
+      standDownRiku: -1253061935
+      standLeftRiku: -1346804836
+      standUpLeftRiku: -285331124
+      standUpRiku: 1903981912
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
