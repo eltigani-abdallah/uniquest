@@ -1,12 +1,27 @@
 fileFormatVersion: 2
-guid: 414c4a346b94a264ebabe6b06a7bb04a
+guid: dffef66376be4fa480fb02b19edbe903
 TextureImporter:
-  internalIDToNameTable: []
+  fileIDToRecycleName:
+    21300000: EmojiOne_0
+    21300002: EmojiOne_1
+    21300004: EmojiOne_2
+    21300006: EmojiOne_3
+    21300008: EmojiOne_4
+    21300010: EmojiOne_6
+    21300012: EmojiOne_7
+    21300014: EmojiOne_8
+    21300016: EmojiOne_9
+    21300018: EmojiOne_10
+    21300020: EmojiOne_11
+    21300022: EmojiOne_12
+    21300024: EmojiOne_13
+    21300026: EmojiOne_5
+    21300028: EmojiOne_14
   externalObjects: {}
-  serializedVersion: 13
+  serializedVersion: 5
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -20,26 +35,21 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
   isReadable: 0
-  streamingMipmaps: 0
-  streamingMipmapsPriority: 0
-  vTOnly: 0
-  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
   seamlessCubemap: 0
-  textureFormat: 1
+  textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
-    aniso: 1
-    mipBias: 0
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -48,41 +58,32 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spritePixelsToUnits: 100
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
-  flipbookRows: 1
-  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  ignorePngGamma: 0
-  applyGammaDecoding: 0
-  swizzle: 50462976
-  cookieLightType: 0
   platformSettings:
-  - serializedVersion: 4
+  - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
+  - serializedVersion: 2
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -90,12 +91,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -103,12 +102,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -116,304 +113,319 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BattleStartKHCOM_0
+      name: EmojiOne_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 99
+        x: 0
+        y: 384
         width: 128
-        height: 86
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9fd3a365609e744a802e4bda2d3e947
-      internalID: 529423961
+      spriteID: 4bcc36da2108f2c4ba3de5c921d25c3c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BattleStartKHCOM_1
+      name: EmojiOne_1
       rect:
         serializedVersion: 2
-        x: 137
-        y: 99
+        x: 128
+        y: 384
         width: 128
-        height: 86
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae348b23dc75d3140a857b48b6df4e12
-      internalID: -1461903220
+      spriteID: e9eea8093eaeaee4d901c4553f572c22
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BattleStartKHCOM_2
+      name: EmojiOne_2
       rect:
         serializedVersion: 2
-        x: 270
-        y: 99
+        x: 256
+        y: 384
         width: 128
-        height: 86
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 768019eaf42e5824884b259c44be737f
-      internalID: -1246970952
+      spriteID: 49451da35411dcc42a3692e39b0fde70
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BattleStartKHCOM_3
+      name: EmojiOne_3
       rect:
         serializedVersion: 2
-        x: 403
-        y: 99
+        x: 384
+        y: 384
         width: 128
-        height: 86
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edd01f58b5324dd40b2e4dd74a9a5414
-      internalID: -654078831
+      spriteID: f65709664b924904790c850a50ca82bc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BattleStartKHCOM_4
+      name: EmojiOne_4
       rect:
         serializedVersion: 2
-        x: 536
-        y: 99
+        x: 0
+        y: 256
         width: 128
-        height: 86
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f9e303517e28c144a1672a73ed308a7
-      internalID: 700849463
+      spriteID: 5b92c568a5ec9ad4b9ed90e271f1c9a8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BattleStartKHCOM_5
+      name: EmojiOne_6
       rect:
         serializedVersion: 2
-        x: 669
-        y: 99
+        x: 256
+        y: 256
         width: 128
-        height: 86
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01c063c043adfd64699265ab33bc6a98
-      internalID: 890667561
+      spriteID: b10f2b48b7281594bb8a24a6511a35af
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BattleStartKHCOM_6
+      name: EmojiOne_7
       rect:
         serializedVersion: 2
-        x: 4
-        y: 8
+        x: 384
+        y: 256
         width: 128
-        height: 86
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 423a6c01b14568246a101021a9992bd5
-      internalID: 829612155
+      spriteID: 10a600f9329dc2246a897e89f4d283cd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BattleStartKHCOM_7
+      name: EmojiOne_8
       rect:
         serializedVersion: 2
-        x: 137
-        y: 8
+        x: 0
+        y: 128
         width: 128
-        height: 86
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca0254d0a9820f54bb89d3252d7c14a6
-      internalID: -253847549
+      spriteID: 66cffa363b90ab14787d8a5b90cf4502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BattleStartKHCOM_8
+      name: EmojiOne_9
       rect:
         serializedVersion: 2
-        x: 270
-        y: 8
+        x: 128
+        y: 128
         width: 128
-        height: 86
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5af02146815b9c742acf2f07c333b27a
-      internalID: 1474444647
+      spriteID: 55cf3d409c9b89349b1e1bdc1cc224ad
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BattleStartKHCOM_9
+      name: EmojiOne_10
       rect:
         serializedVersion: 2
-        x: 403
-        y: 8
+        x: 256
+        y: 128
         width: 128
-        height: 86
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d0d68034c653aa48b108db61c34c9fd
-      internalID: 1874315493
+      spriteID: 2a9e58eaf96feef42bcefa1cf257193f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BattleStartKHCOM_10
+      name: EmojiOne_11
       rect:
         serializedVersion: 2
-        x: 536
-        y: 8
+        x: 384
+        y: 128
         width: 128
-        height: 86
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a64fb6527aa29ba428558ef0bd6f2853
-      internalID: -1772594052
+      spriteID: 2489120affc155840ae6a7be2e93ce19
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BattleStartKHCOM_11
+      name: EmojiOne_12
       rect:
         serializedVersion: 2
-        x: 669
-        y: 9
-        width: 127
-        height: 85
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58b6f66f567d5774a8c4bdcd19484d40
-      internalID: 778921559
+      spriteID: 412349a150598d14da4d7140df5c0286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmojiOne_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a937464b42bb3634782dea34c6becb6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmojiOne_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f933b217682124dbfc5e6b89abe3d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EmojiOne_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7235c763afe4434e8bb666750a41096
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
-    customData: 
     physicsShape: []
     bones: []
-    spriteID: 45abb3f55217b4a4694024dbccf1269f
-    internalID: 0
+    spriteID: 3e32d8f5477abfc43b19066e8ad5032e
     vertices: []
     indices: 
     edges: []
     weights: []
-    secondaryTextures: []
-    spriteCustomMetadata:
-      entries: []
-    nameFileIdTable:
-      BattleStartKHCOM_0: 529423961
-      BattleStartKHCOM_1: -1461903220
-      BattleStartKHCOM_10: -1772594052
-      BattleStartKHCOM_11: 778921559
-      BattleStartKHCOM_2: -1246970952
-      BattleStartKHCOM_3: -654078831
-      BattleStartKHCOM_4: 700849463
-      BattleStartKHCOM_5: 890667561
-      BattleStartKHCOM_6: 829612155
-      BattleStartKHCOM_7: -253847549
-      BattleStartKHCOM_8: 1474444647
-      BattleStartKHCOM_9: 1874315493
-  mipmapLimitGroupName: 
-  pSDRemoveMatte: 0
+  spritePackingTag: 
   userData: 
   assetBundleName: 
   assetBundleVariant: 

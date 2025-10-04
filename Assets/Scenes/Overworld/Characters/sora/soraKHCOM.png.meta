@@ -1,0 +1,1610 @@
+fileFormatVersion: 2
+guid: 50a509d963ca2c44abfc6fb5f5d3e398
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: standDownSora
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2861
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a86c6072fcdae148a85b3e7eba39506
+      internalID: -1605110911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownSora0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2817
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de96804a12900443b7bdb9307ec6f3c
+      internalID: 315577707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownSora1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 2816
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf7f49847978004e8583bfe8f130cb8
+      internalID: -1353834971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownSora2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 2816
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3867b083cac684280f78d658edb50b
+      internalID: 1463973240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownSora3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 2816
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5282cecca155c43978e4d08c77ce7d
+      internalID: -834687837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownSora4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 2816
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccc13f185821d2409328903a5a2d62a
+      internalID: -2130009059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownSora5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2816
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9093deed671340640bd6928153c87793
+      internalID: -1978846946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownSora6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2816
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c20c1bb6b812064a8fa8dcd49c214f2
+      internalID: 850317149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownSora7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 2816
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7473a6b11bbf7b54b811568d6fb3810e
+      internalID: 31446115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownLeftSora0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2663
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600d0a7c99074fb449397ac18b3b037d
+      internalID: 1803566027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownLeftSora1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2663
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e261a835d34728145981e6a3681cb426
+      internalID: 1127206580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownLeftSora2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2663
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6aac54083fbdda469af894507123b4f
+      internalID: 1103087664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownLeftSora3
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 2663
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2cc6449393bbe458cb1d24079d090a
+      internalID: 1640234805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownLeftSora4
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 2663
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6fc707dd803d340a4466c7b979484f
+      internalID: 692666670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownLeftSora5
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 2663
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58592f487f2f4d14483265631cb53343
+      internalID: -350962765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownLeftSora6
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 2663
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6096e659d66f8a7489a6c3bba086a7d7
+      internalID: -1997015591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runDownLeftSora7
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 2663
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339af1ec21428fb4091c899da03c362a
+      internalID: 345737367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: standUpSora
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2609
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c681f5fda64a84ba9483bdf2035098
+      internalID: 1619029855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpSora2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 2557
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365ab0474e9e9124ba9e097f672eb3f5
+      internalID: -1944188086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpSora4
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 2557
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a11bd59ca10e104c94ca1694174d8f5
+      internalID: -71377138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpSora5
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 2557
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639c9498f443b4047a27a60b2f0bad7d
+      internalID: -574861408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpSora6
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 2557
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eaae27493022104f9ed73705ac30061
+      internalID: -744807452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: standUpLeftSora
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2503
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a17ae1e734300e4fb8370d978b38907
+      internalID: 1223330944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpSora3
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 2557
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8766fc4a691d16b448e8bf4d57814653
+      internalID: -2032660609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpSora7
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 2557
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632aeb6e3db97ff49946017727dbfdd3
+      internalID: -1114498270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpLeftSora0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2399
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c38c82db99c9e54eb0e1df2094b5dbc
+      internalID: 151249520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpLeftSora1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2399
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999a7e2f6dce73042afac6c3a4883a0e
+      internalID: -1088919141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpLeftSora2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 2399
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcffff9696b97ed4d81eec4a619722a5
+      internalID: -1509893707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpLeftSora3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2399
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0306256ceeb4a3944a6080c0eb7aa77c
+      internalID: 2119608452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpLeftSora4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2399
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d3c31aed292ba478c43c1db19d9bfa
+      internalID: -491647022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpLeftSora5
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 2399
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d510c5ce19559044382d5a13cebe3cee
+      internalID: 117087459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpLeftSora6
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 2399
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac234f22364c4d44dacbd4d62879bff6
+      internalID: -1811724542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpLeftSora7
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2399
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5577520511d7a3e4a8cd0297f3556695
+      internalID: -1669313539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: standLeftSora
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2342
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac00b27319071ff468641ae3e6f0931a
+      internalID: 592972563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runLeftSora0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2290
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b40f874b257954491f6cb14275e644
+      internalID: -1226087584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runLeftSora1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 2290
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5745240e3ccb44ab86aacface88565
+      internalID: 745961765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runLeftSora2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2290
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed202a6d5362fd4f914c7fbab0a303b
+      internalID: 723344159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runLeftSora3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 2290
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2781e0867c1ac5f43b6373d0f9c8eb2e
+      internalID: 649751885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runLeftSora4
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 2290
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c13d7c4f1530b4d9a3e86cdb1c5970
+      internalID: 1141147727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runLeftSora5
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 2290
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0eac56db2c43f498ca304c7b3e790c
+      internalID: 1260794540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runLeftSora6
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 2290
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9d2a2f67e8433428192aaf4015172d
+      internalID: -760955586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runLeftSora7
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 2290
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bdfcc638ed56b41b24fe678636bae5
+      internalID: 1329096535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: standDownLeftSora
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2764
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28532c9f50f0f7148861e90fda1bc210
+      internalID: -1040796323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpSora1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2557
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0d9fcc3d877dd42b9b296c16a2bccc
+      internalID: -488245155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runUpSora0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2557
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41874d6224f45d1428233cb328ce174a
+      internalID: -73173833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a159a0d2c0c328e438627973d0e98f01
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      runDownLeftSora0: 1803566027
+      runDownLeftSora1: 1127206580
+      runDownLeftSora2: 1103087664
+      runDownLeftSora3: 1640234805
+      runDownLeftSora4: 692666670
+      runDownLeftSora5: -350962765
+      runDownLeftSora6: -1997015591
+      runDownLeftSora7: 345737367
+      runDownSora0: 315577707
+      runDownSora1: -1353834971
+      runDownSora2: 1463973240
+      runDownSora3: -834687837
+      runDownSora4: -2130009059
+      runDownSora5: -1978846946
+      runDownSora6: 850317149
+      runDownSora7: 31446115
+      runLeftSora0: -1226087584
+      runLeftSora1: 745961765
+      runLeftSora2: 723344159
+      runLeftSora3: 649751885
+      runLeftSora4: 1141147727
+      runLeftSora5: 1260794540
+      runLeftSora6: -760955586
+      runLeftSora7: 1329096535
+      runUpLeftSora0: 151249520
+      runUpLeftSora1: -1088919141
+      runUpLeftSora2: -1509893707
+      runUpLeftSora3: 2119608452
+      runUpLeftSora4: -491647022
+      runUpLeftSora5: 117087459
+      runUpLeftSora6: -1811724542
+      runUpLeftSora7: -1669313539
+      runUpSora0: -73173833
+      runUpSora1: -488245155
+      runUpSora2: -1944188086
+      runUpSora3: -2032660609
+      runUpSora4: -71377138
+      runUpSora5: -574861408
+      runUpSora6: -744807452
+      runUpSora7: -1114498270
+      soraKHCOM_102: 648031068
+      soraKHCOM_104: 962860643
+      soraKHCOM_105: -2135545208
+      soraKHCOM_106: 2067016281
+      soraKHCOM_107: 1024472805
+      soraKHCOM_108: -1127169405
+      soraKHCOM_109: 661222091
+      soraKHCOM_110: 1525160740
+      soraKHCOM_111: 1329179556
+      soraKHCOM_112: -863746899
+      soraKHCOM_113: 1262395635
+      soraKHCOM_114: 1269893880
+      soraKHCOM_115: -456316569
+      soraKHCOM_116: 2104896828
+      soraKHCOM_117: -194421231
+      soraKHCOM_118: 964167362
+      soraKHCOM_119: -121620202
+      soraKHCOM_120: -2052115948
+      soraKHCOM_121: 1571048703
+      soraKHCOM_122: 462062897
+      soraKHCOM_123: 91129069
+      soraKHCOM_124: 946617875
+      soraKHCOM_125: -422196743
+      soraKHCOM_126: -1508317312
+      soraKHCOM_127: -1330980962
+      soraKHCOM_128: 618163937
+      soraKHCOM_129: -1484651887
+      soraKHCOM_130: -867381559
+      soraKHCOM_131: -420890548
+      soraKHCOM_132: -1124401485
+      soraKHCOM_133: -1138608502
+      soraKHCOM_134: 379324017
+      soraKHCOM_135: 12840856
+      soraKHCOM_136: -1043548893
+      soraKHCOM_137: 2034520643
+      soraKHCOM_138: -305364807
+      soraKHCOM_139: -684421873
+      soraKHCOM_140: -218902442
+      soraKHCOM_141: -126240125
+      soraKHCOM_142: -933256399
+      soraKHCOM_143: -1299967643
+      soraKHCOM_144: 492120720
+      soraKHCOM_145: -398169433
+      soraKHCOM_146: 1908104638
+      soraKHCOM_147: -43566673
+      soraKHCOM_148: 1387563202
+      soraKHCOM_149: 236425587
+      soraKHCOM_150: 1042316266
+      soraKHCOM_151: -1733462874
+      soraKHCOM_152: -734786311
+      soraKHCOM_153: -267960951
+      soraKHCOM_154: -449921156
+      soraKHCOM_155: -707654451
+      soraKHCOM_156: -511767221
+      soraKHCOM_157: 1486586849
+      soraKHCOM_158: -520065461
+      soraKHCOM_159: 1850353476
+      soraKHCOM_16: 300395263
+      soraKHCOM_160: 95830545
+      soraKHCOM_161: -291221867
+      soraKHCOM_162: 1962224576
+      soraKHCOM_163: -116130313
+      soraKHCOM_164: 2028808388
+      soraKHCOM_165: 2040378132
+      soraKHCOM_166: 1624367964
+      soraKHCOM_167: 183045868
+      soraKHCOM_168: 1721324397
+      soraKHCOM_169: -1763385767
+      soraKHCOM_17: -1659649716
+      soraKHCOM_170: -1206555073
+      soraKHCOM_171: 1785394685
+      soraKHCOM_172: -1783466384
+      soraKHCOM_173: -1383241197
+      soraKHCOM_174: 802398531
+      soraKHCOM_175: -218215060
+      soraKHCOM_176: -194518157
+      soraKHCOM_177: -84736164
+      soraKHCOM_178: -1599486497
+      soraKHCOM_179: -1135553812
+      soraKHCOM_18: -2016939421
+      soraKHCOM_180: -670483921
+      soraKHCOM_181: -2093677725
+      soraKHCOM_182: 1831784931
+      soraKHCOM_183: -2136905729
+      soraKHCOM_184: -1275731678
+      soraKHCOM_185: -6718554
+      soraKHCOM_186: 424400627
+      soraKHCOM_187: -954301320
+      soraKHCOM_188: -684169967
+      soraKHCOM_189: 182583267
+      soraKHCOM_19: -1402850178
+      soraKHCOM_190: -181890072
+      soraKHCOM_191: -620871547
+      soraKHCOM_192: 1619078345
+      soraKHCOM_193: 1959709096
+      soraKHCOM_194: 1334564918
+      soraKHCOM_195: 1126468795
+      soraKHCOM_196: 670800970
+      soraKHCOM_197: -1101483343
+      soraKHCOM_198: 620744230
+      soraKHCOM_199: 1165270095
+      soraKHCOM_20: -927530607
+      soraKHCOM_200: 1916231379
+      soraKHCOM_201: -1204119343
+      soraKHCOM_202: 766488237
+      soraKHCOM_203: 349970254
+      soraKHCOM_204: 922177961
+      soraKHCOM_205: 1343287919
+      soraKHCOM_206: 1191241107
+      soraKHCOM_207: 917577748
+      soraKHCOM_208: 1924407670
+      soraKHCOM_209: -1655626131
+      soraKHCOM_21: 1597749161
+      soraKHCOM_210: 1466737021
+      soraKHCOM_211: 874775122
+      soraKHCOM_212: -1037703554
+      soraKHCOM_213: -1812958029
+      soraKHCOM_214: 1767654098
+      soraKHCOM_215: 325150776
+      soraKHCOM_216: 183752579
+      soraKHCOM_217: 116473515
+      soraKHCOM_218: -1363475913
+      soraKHCOM_219: 2035315506
+      soraKHCOM_22: 1816808932
+      soraKHCOM_220: -798735265
+      soraKHCOM_221: -1715319140
+      soraKHCOM_222: -175825409
+      soraKHCOM_223: -281831036
+      soraKHCOM_224: -1210393751
+      soraKHCOM_225: -2137228747
+      soraKHCOM_226: -1892346558
+      soraKHCOM_227: -323590700
+      soraKHCOM_228: 821428964
+      soraKHCOM_229: -1190737936
+      soraKHCOM_23: -284516002
+      soraKHCOM_230: -211288779
+      soraKHCOM_231: 174292265
+      soraKHCOM_232: -676397162
+      soraKHCOM_233: 1743816661
+      soraKHCOM_234: 910277162
+      soraKHCOM_235: 1566420398
+      soraKHCOM_236: -1008229668
+      soraKHCOM_237: -547156198
+      soraKHCOM_238: 2113357203
+      soraKHCOM_239: 1079366440
+      soraKHCOM_24: 1663821858
+      soraKHCOM_240: 156680190
+      soraKHCOM_241: 2043945050
+      soraKHCOM_242: -531174072
+      soraKHCOM_243: -572730867
+      soraKHCOM_244: -369795490
+      soraKHCOM_245: 530215982
+      soraKHCOM_246: -863313425
+      soraKHCOM_247: 1619101044
+      soraKHCOM_248: -1701323268
+      soraKHCOM_249: -1778498752
+      soraKHCOM_25: -62164233
+      soraKHCOM_250: 718272760
+      soraKHCOM_251: 591025072
+      soraKHCOM_252: 888252806
+      soraKHCOM_253: -1509034643
+      soraKHCOM_254: -977296774
+      soraKHCOM_255: -1451362180
+      soraKHCOM_256: 194023107
+      soraKHCOM_257: 845945569
+      soraKHCOM_258: 551311709
+      soraKHCOM_259: 174813603
+      soraKHCOM_26: -13506526
+      soraKHCOM_260: -983727378
+      soraKHCOM_261: 366439314
+      soraKHCOM_262: -2069192141
+      soraKHCOM_263: 689124663
+      soraKHCOM_264: -253836161
+      soraKHCOM_265: -463569242
+      soraKHCOM_266: 108938642
+      soraKHCOM_267: -2097673503
+      soraKHCOM_268: -945760870
+      soraKHCOM_269: -298220989
+      soraKHCOM_27: -1331300560
+      soraKHCOM_270: 60669640
+      soraKHCOM_271: 1765263129
+      soraKHCOM_272: 304339006
+      soraKHCOM_273: -1815295481
+      soraKHCOM_274: 1761340680
+      soraKHCOM_275: 1008164434
+      soraKHCOM_276: 322196260
+      soraKHCOM_277: 704421521
+      soraKHCOM_278: 243301774
+      soraKHCOM_279: 1145659267
+      soraKHCOM_28: 1203756513
+      soraKHCOM_280: -825352122
+      soraKHCOM_281: -1202431807
+      soraKHCOM_282: 199631650
+      soraKHCOM_283: -516462474
+      soraKHCOM_284: -1570792087
+      soraKHCOM_285: 369741980
+      soraKHCOM_286: 1424647396
+      soraKHCOM_287: -663391349
+      soraKHCOM_288: -710679539
+      soraKHCOM_289: 1506897426
+      soraKHCOM_29: -182794659
+      soraKHCOM_290: 1317360258
+      soraKHCOM_291: 1973501245
+      soraKHCOM_292: -469135148
+      soraKHCOM_293: 199435746
+      soraKHCOM_294: 330811498
+      soraKHCOM_295: 1778645022
+      soraKHCOM_296: -190591962
+      soraKHCOM_297: -285006215
+      soraKHCOM_298: -1114473199
+      soraKHCOM_299: 779852701
+      soraKHCOM_30: -304218706
+      soraKHCOM_300: -605036462
+      soraKHCOM_301: -1885587656
+      soraKHCOM_302: 145178170
+      soraKHCOM_303: 2062831994
+      soraKHCOM_304: -885830696
+      soraKHCOM_305: 112061529
+      soraKHCOM_306: -2107905272
+      soraKHCOM_307: 1667392225
+      soraKHCOM_308: 1802082458
+      soraKHCOM_309: -1356342224
+      soraKHCOM_31: 1148964130
+      soraKHCOM_310: -452979597
+      soraKHCOM_311: 272435120
+      soraKHCOM_312: 1196205709
+      soraKHCOM_313: -1051881042
+      soraKHCOM_314: -641869941
+      soraKHCOM_315: -271452390
+      soraKHCOM_316: 331769963
+      soraKHCOM_317: -2134716653
+      soraKHCOM_318: 2028976468
+      soraKHCOM_319: -672218901
+      soraKHCOM_32: -100017597
+      soraKHCOM_320: -884329684
+      soraKHCOM_321: -853424060
+      soraKHCOM_322: 1990638094
+      soraKHCOM_323: -103381376
+      soraKHCOM_324: -322189945
+      soraKHCOM_325: -2073869032
+      soraKHCOM_326: -1544288918
+      soraKHCOM_327: 497362281
+      soraKHCOM_328: -1837608516
+      soraKHCOM_329: 290972278
+      soraKHCOM_33: -846304795
+      soraKHCOM_330: 1823992536
+      soraKHCOM_331: -240553849
+      soraKHCOM_332: 1536761449
+      soraKHCOM_333: -608663538
+      soraKHCOM_334: 725585689
+      soraKHCOM_335: 264744526
+      soraKHCOM_336: -21487096
+      soraKHCOM_337: 961244097
+      soraKHCOM_338: 1768905973
+      soraKHCOM_339: 342829066
+      soraKHCOM_340: -1994209110
+      soraKHCOM_341: 588211748
+      soraKHCOM_342: 980075244
+      soraKHCOM_343: -1907629460
+      soraKHCOM_344: -1644278115
+      soraKHCOM_345: 1650336409
+      soraKHCOM_346: -1397520911
+      soraKHCOM_347: -1748651460
+      soraKHCOM_348: -1840543479
+      soraKHCOM_349: -889293297
+      soraKHCOM_350: 1317623799
+      soraKHCOM_351: 1230186214
+      soraKHCOM_352: -157162071
+      soraKHCOM_353: 401881455
+      soraKHCOM_354: -752466680
+      soraKHCOM_355: -2033507171
+      soraKHCOM_356: -237055094
+      soraKHCOM_357: 1356784504
+      soraKHCOM_358: 1428114920
+      soraKHCOM_359: 1011477560
+      soraKHCOM_360: -2038445019
+      soraKHCOM_361: 20583940
+      soraKHCOM_362: -1302118847
+      soraKHCOM_363: -1685358924
+      soraKHCOM_364: -1504015251
+      soraKHCOM_365: 1416945743
+      soraKHCOM_366: -1981550605
+      soraKHCOM_367: 1144440212
+      soraKHCOM_368: 966588059
+      soraKHCOM_369: 1828151783
+      soraKHCOM_370: 394970262
+      soraKHCOM_371: -1329668616
+      soraKHCOM_372: 1816758154
+      soraKHCOM_373: 1879586996
+      soraKHCOM_374: -1666794117
+      soraKHCOM_375: -660934290
+      soraKHCOM_376: -189258129
+      soraKHCOM_377: 459217271
+      soraKHCOM_378: 781859367
+      soraKHCOM_379: -1860439402
+      soraKHCOM_380: -1552009711
+      soraKHCOM_381: -1780239091
+      soraKHCOM_382: -967112924
+      soraKHCOM_383: 116330784
+      soraKHCOM_384: -1357916474
+      soraKHCOM_385: 1795404552
+      soraKHCOM_386: -454878771
+      soraKHCOM_387: -223283922
+      soraKHCOM_388: 593385112
+      soraKHCOM_389: -2082024606
+      soraKHCOM_390: 1503401255
+      soraKHCOM_391: -1757115685
+      soraKHCOM_392: 1620600557
+      soraKHCOM_393: -1098428146
+      soraKHCOM_394: 1675392743
+      soraKHCOM_395: 242093767
+      soraKHCOM_396: 370619583
+      soraKHCOM_397: -1001934590
+      soraKHCOM_398: 536596464
+      soraKHCOM_399: -1276328991
+      soraKHCOM_4: -365348689
+      soraKHCOM_400: 1124645868
+      soraKHCOM_401: -92383074
+      soraKHCOM_402: -1124813813
+      soraKHCOM_403: 307196799
+      soraKHCOM_404: 847262174
+      soraKHCOM_405: 1991285562
+      soraKHCOM_406: 1565577234
+      soraKHCOM_407: -1510525301
+      soraKHCOM_408: 74798134
+      soraKHCOM_409: -1524351953
+      soraKHCOM_410: 14504552
+      soraKHCOM_411: -1563515114
+      soraKHCOM_412: -1996100561
+      soraKHCOM_413: -381570735
+      soraKHCOM_414: -1534485753
+      soraKHCOM_415: 1701432321
+      soraKHCOM_416: -255542937
+      soraKHCOM_417: -1047719489
+      soraKHCOM_418: -2075910430
+      soraKHCOM_419: -618579571
+      soraKHCOM_42: 113757023
+      soraKHCOM_420: 1010397012
+      soraKHCOM_421: 457913435
+      soraKHCOM_422: -31800897
+      soraKHCOM_423: 1472398406
+      soraKHCOM_424: -1365435323
+      soraKHCOM_425: 1744414243
+      soraKHCOM_426: 1864476848
+      soraKHCOM_427: -1265151822
+      soraKHCOM_428: -1458280503
+      soraKHCOM_429: -1583833535
+      soraKHCOM_43: -1386197832
+      soraKHCOM_430: 1892295494
+      soraKHCOM_431: -1048072742
+      soraKHCOM_432: 1502129376
+      soraKHCOM_433: 756294370
+      soraKHCOM_434: -1738708175
+      soraKHCOM_435: -43177776
+      soraKHCOM_436: 1604501133
+      soraKHCOM_437: 22474267
+      soraKHCOM_438: 1194276522
+      soraKHCOM_439: -317615870
+      soraKHCOM_44: -244087243
+      soraKHCOM_440: -962606912
+      soraKHCOM_441: -995738431
+      soraKHCOM_442: -472536198
+      soraKHCOM_443: -1728552817
+      soraKHCOM_444: 64950679
+      soraKHCOM_445: -1813217785
+      soraKHCOM_446: 1635441968
+      soraKHCOM_447: 2139358534
+      soraKHCOM_448: 1080338243
+      soraKHCOM_449: 215354887
+      soraKHCOM_45: -186004571
+      soraKHCOM_450: -664580747
+      soraKHCOM_451: 1818373363
+      soraKHCOM_452: -975063764
+      soraKHCOM_453: -1895160445
+      soraKHCOM_454: -1389452939
+      soraKHCOM_455: -725361730
+      soraKHCOM_456: 1098938166
+      soraKHCOM_457: 166391045
+      soraKHCOM_458: -885077969
+      soraKHCOM_459: -1113543529
+      soraKHCOM_46: -659662203
+      soraKHCOM_460: -841280285
+      soraKHCOM_461: 2055011193
+      soraKHCOM_462: 1125328098
+      soraKHCOM_463: -46342002
+      soraKHCOM_464: 1276008810
+      soraKHCOM_465: -1030890398
+      soraKHCOM_466: 844459311
+      soraKHCOM_467: 803574785
+      soraKHCOM_468: -1530812679
+      soraKHCOM_469: -797761708
+      soraKHCOM_47: 1496449871
+      soraKHCOM_470: -1228099841
+      soraKHCOM_471: 507207671
+      soraKHCOM_472: 665255219
+      soraKHCOM_473: -165300430
+      soraKHCOM_474: -81712056
+      soraKHCOM_475: 695033891
+      soraKHCOM_476: 435017086
+      soraKHCOM_48: -380464172
+      soraKHCOM_49: 1684981185
+      soraKHCOM_5: 1166023524
+      soraKHCOM_50: -1536317459
+      soraKHCOM_56: -343307025
+      soraKHCOM_57: -842305859
+      soraKHCOM_58: 979434523
+      soraKHCOM_59: -1130865561
+      soraKHCOM_6: 1471040942
+      soraKHCOM_60: 779535144
+      soraKHCOM_61: -2054507085
+      soraKHCOM_62: -950327135
+      soraKHCOM_66: 249771489
+      soraKHCOM_67: -696217216
+      soraKHCOM_68: -1863410297
+      soraKHCOM_69: 1456219386
+      soraKHCOM_7: -402921937
+      soraKHCOM_70: 837836697
+      soraKHCOM_71: 2095730969
+      soraKHCOM_72: 877328319
+      soraKHCOM_73: 128346405
+      soraKHCOM_74: 726899074
+      soraKHCOM_75: 1840383024
+      soraKHCOM_76: -1733021375
+      soraKHCOM_77: -1762343029
+      soraKHCOM_78: -1258004059
+      soraKHCOM_79: -615566761
+      soraKHCOM_80: -764953576
+      soraKHCOM_81: -2083594911
+      soraKHCOM_82: 962891388
+      soraKHCOM_83: 549872019
+      soraKHCOM_84: -2110136538
+      soraKHCOM_93: -493768026
+      standDownLeftSora: -1040796323
+      standDownSora: -1605110911
+      standLeftSora: 592972563
+      standUpLeftSora: 1223330944
+      standUpSora: 1619029855
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
