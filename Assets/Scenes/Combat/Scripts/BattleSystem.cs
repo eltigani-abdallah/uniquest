@@ -2,20 +2,31 @@ using UnityEngine;
 using System.Collections;
 
 /// <summary>
-/// STAGE 1: Basic state machine with turn transitions.
-/// Focus: Establish battle flow without UI/animations.
+/// STAGE 2: Integrate Unit classes and UI events.
+/// Focus: Replace placeholders with real game logic and event-driven UI.
 /// </summary>
 public class BattleSystem : MonoBehaviour
 {
-    public enum BattleState { START, PLAYER_TURN, ENEMY_TURN, WON, LOST }
+    public enum BattleState { START, PLAYER_TURN, ENEMY_TURN, WON, LOST, RUN }
 
-    [Header("Dependencies")]
-    public GameObject playerPrefab;  // Temporary - will replace with proper unit spawning
+    [Header("Combat Stations")]
+    public Transform playerBattleStation;  // Designated player position
+    public Transform enemyBattleStation;   // Designated enemy position
+
+    [Header("Unit Prefabs")]
+    public GameObject playerPrefab;
     public GameObject enemyPrefab;
 
+    // Unit references
+    private PlayerUnit playerUnit;
+    private EnemyUnit enemyUnit;
     private BattleState currentState;
-    private GameObject playerInstance;
-    private GameObject enemyInstance;
+
+    // UI Events (new in Stage 2)
+    public System.Action<string> OnDialogTextChanged;
+    public System.Action<int, int> OnPlayerHPChanged;
+    public System.Action<int, int> OnEnemyHPChanged;
+    public System.Action<bool> OnActionsEnabled;
 
     void Start()
     {
@@ -24,65 +35,60 @@ public class BattleSystem : MonoBehaviour
     }
 
     /// <summary>
-    /// Minimal setup: Instantiate units and start turn cycle.
-    /// TODO: Add proper positioning, animations, and UI hooks.
+    /// Now instantiates Unit classes and hooks up UI events.
     /// </summary>
     IEnumerator SetupBattle()
     {
-        // Temporary instantiation (no battle stations yet)
-        playerInstance = Instantiate(playerPrefab, Vector3.zero, Quaternion.identity);
-        enemyInstance = Instantiate(enemyPrefab, new Vector3(5, 0, 0), Quaternion.identity);
+        // Spawn units at battle stations
+        GameObject playerInstance = Instantiate(playerPrefab, playerBattleStation);
+        GameObject enemyInstance = Instantiate(enemyPrefab, enemyBattleStation);
 
-        Debug.Log("Battle started! Player vs Enemy");
-        yield return new WaitForSeconds(1f);
+        playerUnit = playerInstance.GetComponent<PlayerUnit>();
+        enemyUnit = enemyInstance.GetComponent<EnemyUnit>();
+
+        SetDialogText("A wild " + enemyUnit.unitName + " appears!");
+        yield return new WaitForSeconds(2f);
 
         currentState = BattleState.PLAYER_TURN;
         PlayerTurn();
     }
 
-    void PlayerTurn()
-    {
-        Debug.Log("Player's turn. Current state: " + currentState);
-        // TODO: Hook up UI buttons to call OnPlayerAttack(), etc.
-    }
+    // === UI Integration ===
+    private void SetDialogText(string text) => OnDialogTextChanged?.Invoke(text);
+    private void EnableActions(bool enable) => OnActionsEnabled?.Invoke(enable);
+    private void UpdatePlayerHP() => OnPlayerHPChanged?.Invoke(playerUnit.currentHP, playerUnit.maxHP);
+    private void UpdateEnemyHP() => OnEnemyHPChanged?.Invoke(enemyUnit.currentHP, enemyUnit.maxHP);
 
-    // === Placeholder Action Handlers ===
-    public void OnPlayerAttack()
-    {
-        if (currentState != BattleState.PLAYER_TURN) return;
-        StartCoroutine(PlayerAttack());
-    }
-
+    // === Updated Action Handlers (now use Unit methods) ===
     IEnumerator PlayerAttack()
     {
-        Debug.Log("Player attacks!");
+        EnableActions(false);
+        SetDialogText($"{playerUnit.unitName} attacks!");
+
         yield return new WaitForSeconds(1f);
 
-        // Simulate damage (no actual Unit classes yet)
-        bool enemyDefeated = Random.Range(0, 2) == 1; // 50% chance to "defeat" enemy
+        // Use actual Unit.TakeDamage() method
+        bool isDead = enemyUnit.TakeDamage(playerUnit.attack);
+        UpdateEnemyHP();
 
-        if (enemyDefeated)
-        {
+        if (isDead)
             EndBattle(true);
-        }
         else
-        {
-            currentState = BattleState.ENEMY_TURN;
             StartCoroutine(EnemyTurn());
-        }
     }
 
     IEnumerator EnemyTurn()
     {
-        Debug.Log("Enemy attacks!");
+        currentState = BattleState.ENEMY_TURN;
+        SetDialogText($"{enemyUnit.unitName} attacks!");
+
         yield return new WaitForSeconds(1f);
 
-        // Simulate player defeat check
-        bool playerDefeated = Random.Range(0, 2) == 1;
-        if (playerDefeated)
-        {
+        bool isDead = playerUnit.TakeDamage(enemyUnit.attack);
+        UpdatePlayerHP();
+
+        if (isDead)
             EndBattle(false);
-        }
         else
         {
             currentState = BattleState.PLAYER_TURN;
@@ -90,10 +96,20 @@ public class BattleSystem : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// New in Stage 2: Proper battle cleanup and scene transition.
+    /// </summary>
     void EndBattle(bool playerWon)
     {
         currentState = playerWon ? BattleState.WON : BattleState.LOST;
-        Debug.Log(playerWon ? "Victory!" : "Defeat...");
-        // TODO: Return to overworld scene
+        SetDialogText(playerWon ? "Victory!" : "Defeat...");
+        EnableActions(false);
+        StartCoroutine(ReturnToMapAfterDelay(3f));
+    }
+
+    IEnumerator ReturnToMapAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Overworld");
     }
 }
