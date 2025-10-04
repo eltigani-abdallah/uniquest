@@ -2,28 +2,36 @@ using UnityEngine;
 
 public class ActionScript : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private BattleSystem battleSystem;
+
+    void Start()
+    {
+        battleSystem = FindFirstObjectByType<BattleSystem>();
+        if (battleSystem == null)
+            Debug.LogError("BattleSystem not found in scene!");
+    }
+    // === PUBLIC METHODS FOR UI BUTTONS ===
     public void Attack()
     {
-        Debug.Log("The attack button was clicked!");
-        //TODO: attack
-    }
-
-    public void Item()
-    {
-        Debug.Log("The item button was clicked!");
-        //TODO: attack
+        Debug.Log("[Combat] Attack action");
+        battleSystem?.OnPlayerAttack();
     }
 
     public void Magic()
     {
-        Debug.Log("The magic button was clicked!");
-        //TODO: attack
+        Debug.Log("[Combat] Magic action");
+        battleSystem?.OnPlayerMagic();
     }
 
-    public void run()
+    public void Item()
     {
-        Debug.Log("The run button was clicked!");
-        //TODO: attack
+        Debug.Log("[Combat] Item action");
+        battleSystem?.OnPlayerUseItem(0); // 0 = health potion
+    }
+
+    public void Run()
+    {
+        Debug.Log("[Combat] Run action");
+        battleSystem?.OnRunButton();
     }
 }
