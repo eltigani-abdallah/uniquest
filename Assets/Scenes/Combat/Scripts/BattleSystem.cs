@@ -5,6 +5,8 @@ using System.Collections;
 /// Manages turn-based battle mechanics including state transitions, combat actions,
 /// and UI updates. Handles player/enemy turns, damage calculations, and battle outcomes.
 /// </summary>
+
+
 public class BattleSystem : MonoBehaviour
 {
     // Battle state machine enum
@@ -38,6 +40,8 @@ public class BattleSystem : MonoBehaviour
     /// <summary>
     /// Initializes battle state and starts setup coroutine
     /// </summary>
+
+    
     void Start()
     {
         currentState = BattleState.START;
@@ -81,6 +85,7 @@ public class BattleSystem : MonoBehaviour
     /// <summary>
     /// Begins player's turn and enables action selection
     /// </summary>
+    
     public void PlayerTurn()
     {
         SetDialogText("Choose an action!");
@@ -120,6 +125,7 @@ public class BattleSystem : MonoBehaviour
     /// 3. Updates UI
     /// 4. Checks for battle end or continues to enemy turn
     /// </summary>
+    
     IEnumerator PlayerAttack()
     {
         EnableActions(false);
@@ -242,7 +248,7 @@ public class BattleSystem : MonoBehaviour
 
         EndBattle(false); // Note: Uses false to distinguish from victory
     }
-
+    ///
     /// <summary>
     /// Ends the battle and triggers victory/defeat sequence:
     /// 1. Sets final dialog text
